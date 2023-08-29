@@ -66,10 +66,10 @@ sidebar_search_disable = false
 
 [[params.versions]]
 version = "master"
-url = "http://localhost:1313/"
-[[params.versions]]
-version = "master1"
-url = "http://localhost:1313/"
+url = "https://deeparena.github.io/website"
+#[[params.versions]]
+#version = "master1"
+#url = "http://localhost:1313/"
 
 
 [params.links]
