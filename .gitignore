@@ -11,3 +11,5 @@ package-lock.json
 
 .idea/
 
+gh-pages
+gh-pages.pub
