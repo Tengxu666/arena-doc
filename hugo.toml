@@ -2,8 +2,8 @@ baseURL = 'https://deeparena.github.io/website'
 title = 'DeepArena'
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/zh"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 
 [module]
@@ -26,18 +26,37 @@ version_menu = "版本列表"
 languageName ="简体中文"
 weight = 1
 contentDir = "content/zh"
-[languages.zh.params]
-title = "ArenaDoc"
-description = "A Docsy example site"
+[languages.zh.menu]
+[[languages.zh.menu.main]]
+name = "文档"
+weight = -101
+pre = "<i class='fas fa-book pr-2'></i>"
+url = "/docs/"
+[[languages.zh.menu.main]]
+name = "博客"
+weight = -100
+pre = "<i class='fas fa-rss pr-2'></i>"
+url = "blog/"
+
 
 [languages.en]
 version_menu = "Versions"
 languageName ="English"
 contentDir = "content/en"
 weight = 1
-[languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
+[languages.en.menu]
+[[languages.en.menu.main]]
+name = "Documentation"
+weight = -101
+pre = "<i class='fas fa-book pr-2'></i>"
+url = "docs/"
+[[languages.en.menu.main]]
+name = "Blog"
+weight = -100
+pre = "<i class='fas fa-rss pr-2'></i>"
+url = "blog/"
+
+
 
 [markup]
 [markup.goldmark]
@@ -59,7 +78,6 @@ gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 version = "master"
 archived_version = false
 
-
 [params.ui]
 navbar_logo = true
 sidebar_search_disable = false
@@ -71,55 +89,4 @@ prefix = "website"
 #[[params.versions]]
 #version = "master1"
 #url = "http://localhost:1313/"
-
-
-[params.links]
-[[params.links.user]]
-name = "User mailing list"
-url = "https://discuss.kubernetes.io"
-icon = "fa fa-envelope"
-desc = "Discussion and help from your fellow users"
-
-[[params.links.user]]
-name = "Twitter"
-url = "https://twitter.com/kubernetesio"
-icon = "fab fa-twitter"
-desc = "Follow us on Twitter to get the latest news!"
-
-[[params.links.user]]
-name = "Calendar"
-url = "https://calendar.google.com/calendar/embed?src=calendar%40kubernetes.io"
-icon = "fas fa-calendar-alt"
-desc = "Google Calendar for Kubernetes"
-
-[[params.links.user]]
-name = "Youtube"
-url = "https://youtube.com/kubernetescommunity"
-icon = "fab fa-youtube"
-desc = "Youtube community videos"
-
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
-name = "GitHub"
-url = "https://github.com/kubernetes/kubernetes"
-icon = "fab fa-github"
-desc = "Development takes place here!"
-
-[[params.links.developer]]
-name = "Slack"
-url = "https://slack.k8s.io"
-icon = "fab fa-slack"
-desc = "Chat with other project developers"
-
-[[params.links.developer]]
-name = "Contribute"
-url = "https://git.k8s.io/community/contributors/guide"
-icon = "fas fa-edit"
-desc = "Contribute to the Kubernetes website"
-
-[[params.links.developer]]
-name = "Stack Overflow"
-url = "https://stackoverflow.com/questions/tagged/kubernetes"
-icon = "fab fa-stack-overflow"
-desc = "Practical questions and curated answers"
 
