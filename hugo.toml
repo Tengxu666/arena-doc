@@ -67,6 +67,7 @@ sidebar_search_disable = false
 [[params.versions]]
 version = "master"
 url = "https://deeparena.github.io/website"
+prefix = "website"
 #[[params.versions]]
 #version = "master1"
 #url = "http://localhost:1313/"
