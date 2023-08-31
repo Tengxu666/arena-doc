@@ -4,7 +4,7 @@ title: Goldydoc
 
 {{< blocks/cover title="行业顶尖的人工智能云计算服务平台" image_anchor="center" height="min">}}
 
-<a class="btn btn-secondary" style="border-radius: 6px; background-color: #4279f4; border:none; color: white" href="/docs">
+<a class="btn btn-secondary" style="border-radius: 6px; background-color: #4279f4; border:none; color: white" href="docs">
 学习 DeepArena 基础知识
 </a>
 

@@ -4,7 +4,7 @@ title: Goldydoc
 
 {{< blocks/cover title="DeepArena Artificial Intelligence" image_anchor="center" height="min">}}
 
-<a class="btn btn-secondary" style="border-radius: 6px; background-color: #4279f4; border:none; color: white" href="/docs">
+<a class="btn btn-secondary" style="border-radius: 6px; background-color: #4279f4; border:none; color: white" href="docs">
 Learn DeepArena Basics
 </a>
 
