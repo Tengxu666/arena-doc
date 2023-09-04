@@ -22,10 +22,11 @@ disable = false
 
 [languages]
 [languages.zh]
-version_menu = "版本列表"
 languageName ="简体中文"
 weight = 1
 contentDir = "content/zh"
+[languages.zh.params]
+version_menu = "版本列表"
 [languages.zh.menu]
 [[languages.zh.menu.main]]
 name = "文档"
@@ -44,6 +45,8 @@ version_menu = "Versions"
 languageName ="English"
 contentDir = "content/en"
 weight = 1
+[languages.en.params]
+version_menu = "Versions"
 [languages.en.menu]
 [[languages.en.menu.main]]
 name = "Documentation"
@@ -73,8 +76,14 @@ style = "tango"
 [params]
 copyright = "12313"
 privacy_policy = "123"
-# 谷歌自定义搜索引擎ID。删除或注释以禁用搜索.
-gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+gcs_engine_id = "d72aa9b2712488cc3"
+
+# Enable Algolia DocSearch
+algoli = false
+
+# Enable Lunr.js offline search
+offlineSearch = false
 version = "master"
 archived_version = false
 

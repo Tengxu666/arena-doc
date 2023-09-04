@@ -1,5 +1,5 @@
 ---
-title: Goldydoc
+title: DeepArena
 ---
 
 {{< blocks/cover title="行业顶尖的人工智能云计算服务平台" image_anchor="center" height="min">}}
